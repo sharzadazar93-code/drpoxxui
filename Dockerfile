@@ -17,6 +17,5 @@ COPY start-with-nginx.sh /usr/local/bin/start-with-nginx.sh
 RUN chmod +x /usr/local/bin/start-with-nginx.sh
 
 EXPOSE 8080
-VOLUME ["/etc/x-ui"]
 
 ENTRYPOINT ["/usr/local/bin/start-with-nginx.sh"]
